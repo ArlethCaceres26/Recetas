@@ -50,14 +50,14 @@ INSERT INTO alimentos.receta(
 	str_receta_image
 )
 VALUES
-('Papas con cuero', 'Daniel Tene :)', '0968857043', 'tenedaniel22@gmail.com', 'Colocar todo xd', 'Fácil',
-'https://canalcocina.es/medias/publicuploads/2014/05/11/131080/t9kcuz3g3953ml7gbtm1.jpg'
+('Salchipapas', 'Kevin Bedón', '0968857043', 'kevin@gmail.com', 'Colocar todo xd', 'Fácil',
+'https://imag.bonviveur.com/emplatado-final-de-las-salchipapas.jpg'
 ),
-('Yapingacho', 'Rubén Valencia', '0978458520', 'rubenvalencia@gmail.com', 'Colocar en la olla', 'Medio',
-'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKYaCUtySIj5B2wOobV3rIJHhfoc4GlbNVfw&usqp=CAU'
+('Ceviche', 'Arleth Cáceres', '0978458520', 'arleth@gmail.com', 'Colocar en la olla', 'Medio',
+'https://recetas123.net/wp-content/uploads/2020/03/Cevichocho.jpg'
 ),
-('Encebollado', 'Kevin Espinoza', '0985745877', 'kevinespinoza@gmail.com', 'Colocar todo :)', 'Difícil',
-'https://marcellos.com.ec/wp-content/uploads/2022/10/Encebollado_Mostaza-870x635.png'
+('Llapingacho', 'Alexis Rivera', '0985745877', 'alexis@gmail.com', 'Colocar todo :)', 'Difícil',
+'https://recetas123.net/wp-content/uploads/llapingachos.jpg'
 );
 
 
