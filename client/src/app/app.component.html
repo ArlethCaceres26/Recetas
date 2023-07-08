@@ -37,39 +37,87 @@
         </button>
       </div>
       <div class="hidden lg:flex lg:gap-x-12 lg:justify-end">
-        <a routerLink="/" class="text-sm font-semibold leading-6 text-gray-900"
+        <a routerLink="/" class="text-sm font-semibold leading-6 text-gray-900" style="background: #fff;
+        color: #761e08;
+        border: 2px solid #761e08;
+        padding: 16px 20px;
+        border-radius: 3px;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        display: inline-block;"
           >Inicio</a
         >
         <a
           *ngIf="!mostarAciones"
           routerLink="/recetas"
-          class="text-sm font-semibold leading-6 text-gray-900"
+          class="text-sm font-semibold leading-6 text-gray-900" style="background: #fff;
+          color: #761e08;
+          border: 2px solid #761e08;
+          padding: 16px 20px;
+          border-radius: 3px;
+          position: relative;
+          z-index: 1;
+          overflow: hidden;
+          display: inline-block;"
           >Ver Recetas</a
         >
 
         <button
           *ngIf="mostarAciones"
           class="text-sm font-semibold leading-6 text-gray-900"
-          (click)="toggleModal()"
+          (click)="toggleModal()" style="background: #fff;
+          color: #761e08;
+          border: 2px solid #761e08;
+          padding: 16px 20px;
+          border-radius: 3px;
+          position: relative;
+          z-index: 1;
+          overflow: hidden;
+          display: inline-block;"
         >
           Nueva Receta
         </button>
 
         <a
           routerLink="/acerca-de"
-          class="text-sm font-semibold leading-6 text-gray-900"
+          class="text-sm font-semibold leading-6 text-gray-900" style="background: #fff;
+          color: #761e08;
+          border: 2px solid #761e08;
+          padding: 16px 20px;
+          border-radius: 3px;
+          position: relative;
+          z-index: 1;
+          overflow: hidden;
+          display: inline-block;"
           >Acerca de
         </a>
         <a
           *ngIf="!mostarAciones"
           routerLink="/sesion"
-          class="text-sm font-semibold leading-6 text-gray-900"
+          class="text-sm font-semibold leading-6 text-gray-900" style="background: #fff;
+          color: #761e08;
+          border: 2px solid #761e08;
+          padding: 16px 20px;
+          border-radius: 3px;
+          position: relative;
+          z-index: 1;
+          overflow: hidden;
+          display: inline-block;"
           >Iniciar sesión <span aria-hidden="true">&rarr;</span></a
         > 
         <button
           *ngIf="mostarAciones"
           class="text-sm font-semibold leading-6 text-gray-900"
-          (click)="cerrarSesion()"
+          (click)="cerrarSesion()" style="background: #fff;
+          color: #761e08;
+          border: 2px solid #761e08;
+          padding: 16px 20px;
+          border-radius: 3px;
+          position: relative;
+          z-index: 1;
+          overflow: hidden;
+          display: inline-block;"
         >
           Cerrar sesión <span aria-hidden="true">&rarr;</span>
         </button>
